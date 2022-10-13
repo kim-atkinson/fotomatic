@@ -77,6 +77,13 @@ header .mobile {
   display: none;
 }
 
+.logo {
+  color: #4A4A4A;
+  font-size: 24px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
 @media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
@@ -120,6 +127,8 @@ header .mobile {
 }
 
 #sign-up-cta {
+  margin-top: 170px;
+  margin-left: 100px;
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
@@ -206,7 +215,10 @@ header .mobile {
     font-size: 2rem;
   }
 }
-
+.banner {
+  background-image: url("../images/banner-landingpage.jpg");
+  background-size: cover;
+}
 /* Features Section */
 
 #features-section {
