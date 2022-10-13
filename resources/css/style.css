@@ -1,3 +1,4 @@
+
 /* Universal Styles */
 
 html {
@@ -366,13 +367,22 @@ a {
 
 /* Quotes Section */
 
+.quote {
+  color: #4a4a4a;
+  font-size: 1.875rem;
+  font-family: 'Palatino';
+  font-style: italic;
+  padding-right: 30px;
+}
+
 #quotes-section {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
+
 
 #quotes-section quote {
   padding-right: 1.875rem;
@@ -406,12 +416,10 @@ a {
 
 /* Footer */
 
-footer {
-  background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
-}
 
 footer .content {
+  background-color: #9b9b9b;
+  padding: 1.5rem 2rem;
   color: white;
   display: flex;
   font-size: .75rem;
