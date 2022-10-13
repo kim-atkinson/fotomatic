@@ -26,6 +26,8 @@ html {
 
 .image-container img {
   display: block;
+  height: 65%;
+  width: 90%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -79,10 +81,16 @@ header .mobile {
 
 .logo {
   color: #4A4A4A;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: 'Roboto Mono', monospace;
 }
 
+a {
+  color: #4A4A4A;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Roboto';
+}
 
 @media only screen and (max-width: 760px) {
   header .desktop {
@@ -255,6 +263,9 @@ header .mobile {
   color: #4a4a4a;
 }
 
+.content {
+  padding: 2.5rem 0;
+}
 @media only screen and (max-width: 890px) {
   .feature h2 {
     font-size: 1.125rem;
@@ -310,6 +321,16 @@ header .mobile {
   padding: 0 1%;
 }
 
+.images-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
 @media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
@@ -335,10 +356,13 @@ header .mobile {
     padding: 0;
   }
 
+
   #filters-section .extra {
     display: none;
   }
 }
+
+
 
 /* Quotes Section */
 
