@@ -31,11 +31,15 @@ html {
   width: 90%;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 600px) {
   .main-content {
     top: 2.5625rem;
   }
+
+
 }
+
+
 
 /* Header */
 
@@ -52,6 +56,7 @@ header .content {
   padding: 1.875rem;
 }
 
+
 header .logo {
   flex: 1;
 }
@@ -62,6 +67,13 @@ header nav ul {
 
 nav li {
   padding-left: 3.5rem;
+}
+
+@media only screen and (max-width: 759px) {
+  nav li {
+    padding-left: 1rem;
+  }
+
 }
 
 nav a {
@@ -93,13 +105,30 @@ a {
   font-family: 'Roboto';
 }
 
-@media only screen and (max-width: 760px) {
+header .desktop .button {
+  display: none;
+}
+
+
+@media only screen and  (max-width: 900px) and (min-width: 601px){
+  header .desktop .button {
+    display: block;
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+  
+}
+
+
+@media only screen and (max-width: 600px) {
   header .desktop {
     display: none;
   }
 
   header .mobile {
-    display: block;
+    display: block; 
     width: 100%;
   }
 
@@ -125,6 +154,8 @@ a {
     color: white;
   }
 }
+
+
 
 /* Sign Up Section */
 
@@ -177,7 +208,7 @@ a {
   padding: 1.25rem 7.25rem;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 900px) {
   #sign-up-section {
     align-items: center;
     justify-content: center;
@@ -209,10 +240,8 @@ a {
   }
 }
 
+
 @media only screen and (max-width: 450px) {
-  #sign-up-section {
-    height: 20rem;
-  }
 
   #sign-up-cta h1 {
     font-size: 2.25rem;
