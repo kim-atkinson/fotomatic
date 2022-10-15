@@ -216,6 +216,8 @@ header .desktop .button {
   }
 
   #sign-up-cta {
+    margin: 0rem;
+    padding: 0rem;
     position: static;
     width: auto;
     height: auto;
@@ -255,6 +257,8 @@ header .desktop .button {
   background-image: url("../images/banner-landingpage.jpg");
   background-size: cover;
 }
+
+@
 /* Features Section */
 
 #features-section {
@@ -466,6 +470,17 @@ header .desktop .button {
     height: 40px;
   }
 
+}
+
+@media only screen and (max-width: 599px) {
+  #quotes-section .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quote {
+    margin-bottom: 1rem;
+  }
 }
 
 /* Footer */
